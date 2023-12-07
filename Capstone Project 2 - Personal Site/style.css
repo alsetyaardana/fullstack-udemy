@@ -1,0 +1,111 @@
+body {
+    background-color: #F3EEEA;
+    width: 100vw;
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+h1,h2,h3 {
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EBE3D5;
+    height: 120px;
+}
+
+.first img {
+    width: 200px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 270px;
+    margin: 20px auto 20px;
+}
+
+.hello,.second h2,third h2 {
+    margin: 20px auto 20px;
+}
+
+.foto img {
+    position: relative;
+    width: 170px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.second {
+    text-align: center;
+    margin: 20px auto 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills * {
+    width: 150px;
+}
+
+.skills img {
+    width: 70px;
+}
+
+.third {
+    margin: 20px auto 20px;
+    width: 220px;
+    text-align: center;
+}
+
+.four {
+    background-color: #EBE3D5;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+.four p {
+    margin: 0;
+}
+
+.btn {
+    background: #B0A695;
+    background-image: -webkit-linear-gradient(top, #B0A695, #938b7c);
+    background-image: -moz-linear-gradient(top, #B0A695, #938b7c);
+    background-image: -ms-linear-gradient(top, #B0A695, #938b7c);
+    background-image: -o-linear-gradient(top, #B0A695, #938b7c);
+    background-image: linear-gradient(to bottom, #B0A695, #938b7c);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    body{
+      width: 600px;
+      height: 100vh;
+    }
+  }
